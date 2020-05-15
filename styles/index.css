@@ -1,0 +1,34 @@
+#topnav{
+    background-color: RGB(202, 219, 206);
+}
+
+#botnav{
+  background-color: rgb(224, 209, 209);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+#topnavright {
+    float: right;
+}
+
+#topnavleft{
+    float: left;
+}
+
+#botnavright{
+    float: right;
+}
+#botnavleft{
+    float:left;
+}
+
+#searchbox{
+    position: relative;
+    float: right;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    top: 120px;
+}
