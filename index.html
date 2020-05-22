@@ -5,26 +5,43 @@
         <link rel="stylesheet" type="text/css" href="styles/index.css">
     </head>
 <body>
-    <header>
-        <nav id="topnav">
+<div id="viewport">
+    <div id="topnav">
             <div id="topnavleft">
-
+                <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+                <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
             </div>
             <div id="topnavright">
-                <a href="gmail.google.com">Gmail</a>
-                <a href="images.google.com">Images</a>
+            <div id="toprightnavtext">
+                    <div class="toprightlink">
+                        <a href="gmail.google.com">Gmail</a>
+                    </div>
+                    <div class="toprightlink">
+                        <a href="images.google.com">Images</a>
+                    </div>
+            </div>
+            <div id="toprightnavicons">
                 <a href="https://about.google/intl/en/products/?tab=wh">Products Apps?</a>
                 <a href="accounts.google.com"><img src="images/homepage/userprofilepicture.png"></a>
             </div>
-        </nav>
-    </header>
+            </div>
+    </div>
+</div>
 <main>
+    <div id="logospace">
+        <div id="logo">
+            <img src="images/homepage/googlelogo.png">
+        </div>
+    </div>
     <div id="searchbox">
         <form>
-            <img src="images/homepage/googlelogo.png">
-            <input type="text">
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky">
+            <div id="textfield">
+                <input type="text" id="googlesearch">
+            </div>
+            <div id="buttons">
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky">
+            </div>
         </form>
     </div>
 </main>
@@ -33,7 +50,6 @@
         <div id="botnavleft">
             <a href="https://ads.google.com/home/">Advertising</a>
             <a href="https://smallbusiness.withgoogle.com/">Business</a>
-            <a href="about.google.com">About</a>
             <a href="https://www.google.com/search/howsearchworks">How Search works</a>
         </div>
         <div id="botnavright">
@@ -43,5 +59,6 @@
         </div>
     </nav>
 </footer>
+</div>
 </body>
 </html>
