@@ -8,21 +8,23 @@
 <div id="viewport">
     <div id="topnav">
             <div id="topnavleft">
-                <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
-                <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+                <a class="toplink" style="padding-left: 15px;" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+                <a class="toplink" style="padding-left: 15px;" href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
             </div>
             <div id="topnavright">
             <div id="toprightnavtext">
                     <div class="toprightlink">
-                        <a href="gmail.google.com">Gmail</a>
+                        <a class="toplink" href="gmail.google.com">Gmail</a>
                     </div>
                     <div class="toprightlink">
-                        <a href="images.google.com">Images</a>
+                        <a class="toplink" style="padding-left: 15px;"href="images.google.com">Images</a>
                     </div>
             </div>
             <div id="toprightnavicons">
-                <a href="https://about.google/intl/en/products/?tab=wh"><img id="products" src="images/homepage/googleimages.png"></a>
-                <a href="accounts.google.com"><img style="border-radius: 24px;"src="images/homepage/userprofilepicture.png"></a>
+                <div id="productscontainer">
+                    <a href="https://about.google/intl/en/products/?tab=wh"><img id="products" src="images/homepage/googleimages.png"></a>
+                </div>
+                <a href="accounts.google.com"><img id="accounticon" style="border-radius: 24px;"src="images/homepage/userprofilepicture.png"></a>
             </div>
             </div>
     </div>
@@ -35,12 +37,18 @@
     </div>
     <div id="searchbox">
         <form>
+            
             <div id="textfield">
+                <div id="magnifyglass">
+                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                    </svg>
+                </div>
                 <input type="text" id="googlesearch">
             </div>
             <div id="buttons">
-                <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky">
+                <input class="mainbuttons" type="submit" value="Google Search">
+                <input class="mainbuttons" type="submit" value="I'm Feeling Lucky">
             </div>
         </form>
     </div>
@@ -48,14 +56,14 @@
 <footer>
     <nav id="botnav">
         <div id="botnavleft">
-            <a href="https://ads.google.com/home/">Advertising</a>
-            <a href="https://smallbusiness.withgoogle.com/">Business</a>
-            <a href="https://www.google.com/search/howsearchworks">How Search works</a>
+            <a class="botlinks" href="https://ads.google.com/home/">Advertising</a>
+            <a class="botlinks" href="https://smallbusiness.withgoogle.com/">Business</a>
+            <a class="botlinks" href="https://www.google.com/search/howsearchworks">How Search works</a>
         </div>
         <div id="botnavright">
-            <a href="https://policies.google.com/privacy">Privacy</a>
-            <a href="https://policies.google.com/terms">Terms</a>
-            <a href="https://www.google.com/preferences">Settings</a>
+            <a class="botlinks" href="https://policies.google.com/privacy">Privacy</a>
+            <a class="botlinks" href="https://policies.google.com/terms">Terms</a>
+            <a class="botlinks" style="padding-right: 27px" href="https://www.google.com/preferences">Settings</a>
         </div>
     </nav>
 </footer>

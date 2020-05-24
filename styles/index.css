@@ -20,68 +20,240 @@ body {
 }
 #topnavleft{
     display: inline-block;
-    margin-top: 7px;
+    margin-top: 11px;
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 10px;
     height: 50px;
+    display: inline-block;
+vertical-align: middle;
+line-height: 24px;
+font-size: 13px;
 
 }
-  #topnavright {
-    display: inline-block;
+#topnavright {
     float: right;
-    padding-right: 30px;
+    padding-right: 27px;
     min-width: 181px;
-    margin-top: 7px;
+    
+    vertical-align: middle;
 }
 .toprightlink{
     display: inline-block;
+    vertical-align: middle;
+    line-height: 24px;
+    font-size: 13px;
     
+}
+.toplink:link{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+.toplink:hover{
+    color: rgba(0,0,0,0.87);
+    text-decoration: underline;
+}
+.toplink:active{
+    color: rgba(0,0,0,0.87);
 }
 #toprightnavtext{
     display: inline-block;
+    vertical-align: middle;
+    line-height: 24px;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
 }
 #toprightnavicons{
     display: inline-block;
+    vertical-align: middle;
+}
+#productscontainer{
+    display: inline-block;
+    vertical-align: middle;
+}
+#products{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    opacity: .55;
+    width: 40px;
+    height: 40px;
+    object-fit: none;
+    object-position: -274px -86px;
+    transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5); /* IE 9 */
+    -webkit-transform: scale(0.5, 0.5); /* Safari and Chrome */
+    -o-transform: scale(0.5, 0.5); /* Opera */
+    -moz-transform: scale(0.50, 0.50); /* Firefox */
+}
+#accounticon{
+    vertical-align: middle;
+    transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8); /* IE 9 */
+    -webkit-transform: scale(0.8, 0.8); /* Safari and Chrome */
+    -o-transform: scale(0.8, 0.8); /* Opera */
+    -moz-transform: scale(0.8, 0.8); /* Firefox */
 }
 
 #logospace{
-    height: 233px;
-    margin-top: 89px;
+    height: 201px;
+    margin-top: 109px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #logo{
     position: relative;
-    height: 200px;
-    width: 500px;
+    padding-top: 59px;
+    height: 92px;
+    width: 272px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-#textfield{
+#searchbox{
+    position: relative;
+    height: 140.233px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#magnifyglass{
+    margin-top: 3px;
+    color: #9AA0A6;
+    height: 20px;
+    width: 20px;
+    padding-left: 14px;
+    padding-right: 13px;
+    opacity: .55;
+}
+#textfield{
+    position: relative;
+    margin-top: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 582px;
+    height: 44px;
+    background-color: transparent;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: medium;
+    border-right-color: currentcolor;
+    border-right-style: none;
+    border-right-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-left-color: currentcolor;
+    border-left-style: none;
+    border-left-width: medium;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-source: none;
+    border-image-width: 1;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+#googlesearch{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 100%;
+}
+#textfield:hover{
+    -moz-border-radius:24px;
+    border-radius:24px;
+    -moz-box-shadow:0 1px 2px 0 rgba(60,64,67,.30),0 2px 6px 2px rgba(60,64,67,.15);
+    box-shadow:0 1px 2px 0 rgba(60,64,67,.30),0 2px 6px 2px rgba(60,64,67,.15);
+    -moz-transition:height .2s ease-in-out;
+    transition:height .2s ease-in-out;
 }
 #buttons{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
+.mainbuttons{
+    position: relative;
+    margin: 34px 6px 11px 6px;
+    border: 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: rgb(248, 248, 248);
+    background-image: -webkit-linear-gradient(top, rgb(248, 248, 248), rgb(241, 241, 241));
 
+    height: 36px;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    font-stretch: 100%;
+    text-align: center;
 
+}
+.mainbuttons:link{
+
+}
+.mainbuttons:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px;
+    box-sizing: border-box;
+    border-bottom-color: rgb(198, 198, 198);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(198, 198, 198);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(198, 198, 198);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(198, 198, 198);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+.mainbuttons:active{
+
+}
 #botnav{
     overflow: hidden;
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: rgb(242,242,242);
+
   }
 #botnavright{
     float: right;
 }
 #botnavleft{
     float:left;
+}
+
+.botlinks{
+    padding-left: 27px;
+}
+.botlinks:link{
+    text-decoration: none;
+    color: #5f6368;
+}
+.botlinks:hover{
+    text-decoration: underline;
+}
+.botlinks:active{
+    text-decoration: none;
 }
